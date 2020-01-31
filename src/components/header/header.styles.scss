@@ -1,0 +1,147 @@
+header {
+
+  margin-bottom: 105px;
+
+  #header {
+
+    background-color: #232f3e;
+    line-height: 1em;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    color: whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+  }
+  .nav-top {
+
+    height: 70px;
+    position: relative;
+    z-index: 5;
+    top: -5px;
+    overflow: hidden;
+
+    .nav-left {
+
+      position: relative;
+      height: 55px;
+      width: calc(10% + 130px);
+
+      .row {
+
+        margin-left: 0;
+        margin-right: 0;
+        height: inherit;
+
+
+      }
+
+      .svg-logo {
+
+        left: 50px;
+        top: 10px;
+        position: absolute;
+        height: 35px;
+        margin-left: 5px;
+        margin-right: 5px;
+
+      }
+    }
+
+    .nav-middle {
+
+      position: relative;
+      left: -30px;
+      margin-left: 10px;
+      margin-right: 10px;
+
+    }
+
+    .nav-right {
+
+      margin-left: 15px;
+      margin-right: 15px;
+
+      position: relative;
+      top: 0;
+      height: 40px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      div {
+
+        margin-left: 5px;
+        margin-right: 5px;
+
+      }
+
+      .nav-list {
+
+        display: flex;
+        flex-direction: row;
+
+      }
+
+    }
+  }
+
+  .nav-bottom {
+
+    position: relative;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    .left-main-nav-bar {
+
+        div {
+
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+
+          .link-url {
+
+            color: white;
+            margin-left: 25px;
+            margin-right: 25px;
+            text-align: center;
+            display: inline-block;
+            font-weight: 500;
+
+          }
+
+          .link-url:hover {
+
+            color: orange;
+          }
+
+        }
+    }
+
+    .main-nav-bar {
+
+      position: relative;
+      top: -6px;
+
+      .img-svg {
+
+        width: 300px;
+        height: auto;
+
+      }
+    }
+
+  }
+
+
+
+
+}

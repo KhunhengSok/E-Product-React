@@ -1,0 +1,30 @@
+
+.search-bar {
+
+  width: 850px;
+  //position: relative;
+  //top: 0;
+
+  .form-select-list {
+
+    margin-bottom: 0;
+
+    #exampleCustomSelect {
+
+      background-color: orange;
+      height: 100%;
+      border: none;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+
+    }
+  }
+
+  #form-space {
+
+    border-left: none;
+    background-color: white;
+
+  }
+
+}
